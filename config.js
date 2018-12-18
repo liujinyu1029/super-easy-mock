@@ -1,10 +1,8 @@
+const config = {
+	protocol: 'https',
+	domain: 'sweb.stage.yunshanmeicai.com',
+	port: 80,
+	mock: true
+}
 
-				const config = {
-					protocol: 'http',
-					domain: 'local.yunshanmeicai.com',
-					port: 7777,
-					mock: true
-				}
-
-				module.exports = config
-			
+module.exports = config
